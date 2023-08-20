@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- load font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="upper">
+      <h1>Weather App</h1>
+    </div>
+
+    <div class="search-box">
+      <i class="fa fa-map-marker fa-lg"></i>
+      <input type="text" class="search-bar" placeholder="Enter Your Location">
+      <button class="search-btn">&#128269</button>
+    </div>
+    
+    <div class="weather-results">
+      <div class="weather-box">
+        <div class="weather-img">
+          <img src="weather images/clear.png" alt="weather-img">
+        </div>
+        <div class="temp">15°C</div>
+        <div class="weather">Sunny</div>
+        <div class="location">
+          <i class="fa fa-map-marker"></i>
+          <p class="location">New York City, US</p>
+        </div>
+      </div>
+  
+  
+      <div class="weather-info-box">
+  
+        <div class="weather-info">
+          <img src="weather images/humidity.png" alt="himidity">
+          <div class="title">Humidity</div>
+          <div class="value">64%</div>
+        </div>
+  
+        <div class="weather-info">
+          <img src="weather images/wind.png" alt="Wind">
+          <div class="title">Wind</div>
+          <div class="value">7.7 km/h</div>
+        </div>
+  
+      </div>
+    </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

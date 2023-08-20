@@ -1,0 +1,80 @@
+/* body 요소 설정 */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* 화면 전체 높이로 설정 */
+  margin: 0;
+  background-color: #f0f0f0; /* 배경색 설정 */
+}
+
+/* .container 요소 설정 */
+.container {
+  width: auto; /* 컨테이너의 너비 설정 */
+  padding: 2rem; /* 내부 여백 추가 */
+  border-radius: 10px; /* 둥글게 된 테두리 적용 */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* 그림자 효과 추가 */
+  background-color: #ffffff; /* 컨테이너 배경색 설정 */
+  margin: 5rem;
+  text-align: center;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+/* 검색창 디자인 */
+.search-bar {
+  width: 18.75rem; /* 300px를 rem 단위로 변환 */
+  padding: 1rem; /* 16px를 rem 단위로 변환 */
+  border: none; /* 테두리 제거 */
+  border-radius: 1.5625rem; /* 25px를 rem 단위로 변환 */
+  font-size: 1rem; /* 16px를 rem 단위로 변환 */
+  outline: none; /* 포커스 테두리 제거 */
+}
+
+/* 검색 버튼 디자인 - 둥근 버튼 스타일 */
+.search-btn {
+  background-color: #007BFF;
+  color: #ffffff;
+  padding: 1rem 2rem; /* 16px를 rem 단위로 변환 */
+  border: none;
+  border-radius: 1.5625rem; /* 25px를 rem 단위로 변환 */
+  font-size: 1rem; /* 16px를 rem 단위로 변환 */
+  cursor: pointer;
+}
+
+/* 검색 버튼 호버 효과 (선택사항) */
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.temp {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.weather {
+  font-size: 1.5rem;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 세로 가운데 정렬 */
+  margin-left: 0.3rem;
+}
+
+.fa fa-map-marker {
+  margin-right: 0.5rem;
+}
+
+.weather-info-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
