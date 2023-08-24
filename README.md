@@ -1,7 +1,7 @@
 # weather-app
 Day 14 - Enter locations what you want to know to show the weather
 
-- Use API to get weather Info
+- Use OpenWeatherMap API to get weather Info
 - There is .then and .catch while using fetch function
 - Use .catch to handle API when the site loads fail it
 
