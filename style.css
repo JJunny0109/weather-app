@@ -52,6 +52,10 @@ body {
   background-color: #0056b3;
 }
 
+.weather-results {
+  display: none;
+}
+
 .temperature {
   font-size: 2.5rem;
   font-weight: bold;
@@ -67,6 +71,8 @@ body {
   justify-content: center;
   align-items: center; /* 세로 가운데 정렬 */
   margin-left: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .fa fa-map-marker {
@@ -77,4 +83,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.weather-info {
+  margin: 0 1rem;
+  display: flex;
+}
+.weather-icon {
+  width: 100px; /* 원하는 너비로 설정 */
+  height: 100px; /* 원하는 높이로 설정 */
+
+}
+
+.not-found {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  display: none;
 }

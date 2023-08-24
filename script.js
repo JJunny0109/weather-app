@@ -9,7 +9,7 @@ const humidityValue = document.querySelector('.humidity-value');
 const windValue = document.querySelector('.wind-value');
 
 // API key
-const API_key = '';
+const API_key = '4329a1805d2742183eea9ec250703d45';
 
 // add event listener
 searchBtn.addEventListener('click', () => {

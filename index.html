@@ -24,6 +24,7 @@
     </div>
     
     <div class="weather-results">
+
       <div class="weather-box">
         <div class="weather-img">
           <img src="weather images/clear.png" alt="weather-img">
@@ -31,29 +32,37 @@
         <div class="temperature">15°C</div>
         <div class="weather">Sunny</div>
         <div class="location">
-          <i class="fa fa-map-marker"></i>
-          <p class="city-location">New York City, US</p>
+          <p class="city-location">New York</p>
         </div>
       </div>
-  
-  
+
       <div class="weather-info-box">
-  
+
         <div class="weather-info">
-          <img src="weather images/humidity.png" alt="himidity">
-          <p class="humidity">Humidity</p>
-          <p class="humidity-value">64%</p>
+          <img src="weather images/humidity.png" alt="himidity" class="weather-icon">
+          <div class="value-box">
+            <p class="humidity">Humidity</p>
+            <p class="humidity-value">64%</p>
+          </div>
         </div>
   
         <div class="weather-info">
-          <img src="weather images/wind.png" alt="Wind">
-          <p class="wind">Wind</p>
-          <p class="wind-value">7.7 km/h</p>
+          <img src="weather images/wind.png" alt="Wind" class="weather-icon">
+          <div class="value-box">
+            <p class="wind">Wind</p>
+            <p class="wind-value">7.7 km/h</p>
+          </div>
         </div>
-  
       </div>
+      
     </div>
+  
     
+
+    <div class="not-found">
+      <p>Oops...! City Not Found😅</p>
+    </div>
+
   </div>
 
   <script src="script.js"></script>
