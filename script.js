@@ -11,7 +11,7 @@ const windValue = document.querySelector('.wind-value');
 const notFound = document.querySelector('.not-found');
 
 // API key
-const API_key = '4329a1805d2742183eea9ec250703d45';
+const API_key = '';
 
 // add event listener
 searchBtn.addEventListener('click', () => {
